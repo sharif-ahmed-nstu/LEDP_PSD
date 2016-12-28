@@ -1,0 +1,160 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.fix{
+	overflow: hidden;
+}
+.header-area{
+	background-image: url('../img/slider.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 936px;
+}
+.logo{
+	float: left;
+	margin-top:21px;
+	margin-left: 25px; 
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+.header-top {
+	margin-top: 20px;
+	min-height: 70px;
+}
+.menu{
+	
+}
+.menu ul{
+	
+}
+.menu ul li{
+	float: left;
+	margin-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.menu ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.slide{
+	margin-top: 150px;
+	margin-right: 12px;
+	width: 395px;
+	color: #fff;
+}
+.single-slide h2{
+	font-weight: normal;
+	font-size: 52px;
+	margin-bottom: 25px;
+}
+.single-slide p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+.content-area{
+	height: 450px;
+}
+.main-content{
+	margin-top: 70px;
+}
+
+.left-content{
+	float: left;
+	width: 28%;
+	height: 300px;
+	margin-right: 2%;
+	position: relative;
+}
+.left-content:before{
+	content: "“";
+	font-size: 40px;
+	float: none;
+	color: #fe992a;
+}
+
+.left-content:after{
+	content: "“";
+	font-size: 40px;
+	float: right;
+	color: #fe992a;
+}
+
+.arrow{
+	float: right;
+	margin-top: 70px;
+	color: #fff;
+}
+.left{
+	background-color: #fe992a;
+	padding:5px 10px;
+	float: left;
+}
+.right{
+
+	background-color: #ffba6e;
+	padding: 5px 10px;
+	float: right;
+}
+.left-content p{
+	color: #fe992a;
+	font-size: 20px;
+}
+.right-content{
+	border-left: 1px solid #eaeaea;
+	padding-left: 5%;
+
+}
+.right-content h4{
+	color: #fe992a;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.right-content p {
+  color: #737c85;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+.footer-area{
+	background-color: #e77673;
+}
+.footer-content{
+	margin-top : 50px;
+	color: #fff;
+	margin-bottom: 225px;
+
+}
+.contact {
+  float: left;
+  width: 30%;
+}
+.address{
+	margin-top: 50px;
+}
+.footer-promo {
+  float: left;
+  font-size: 15px;
+  margin-right: 5%;
+  width: 10%;
+}
+.footer-promo:last-child{
+	margin: 0;
+}
+span{
+	font-weight: 700;
+	font-size: 20px;
+}
+.footer-promo>ul>li{
+	margin-bottom: 10px;
+}
+
+
